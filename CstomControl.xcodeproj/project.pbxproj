@@ -15,6 +15,9 @@
 		041608251F5D5C0000D58EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041608231F5D5C0000D58EEA /* LaunchScreen.storyboard */; };
 		041608301F5D5C0000D58EEA /* CstomControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0416082F1F5D5C0000D58EEA /* CstomControlTests.m */; };
 		0416083B1F5D5C0000D58EEA /* CstomControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0416083A1F5D5C0000D58EEA /* CstomControlUITests.m */; };
+		04D772021F5D87120011B5F9 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D771FF1F5D87120011B5F9 /* CustomLabel.m */; };
+		04D772031F5D87120011B5F9 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D772011F5D87120011B5F9 /* CustomTextField.m */; };
+		04D772061F5D8AE40011B5F9 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D772051F5D8AE40011B5F9 /* CustomButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		041608361F5D5C0000D58EEA /* CstomControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CstomControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0416083A1F5D5C0000D58EEA /* CstomControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CstomControlUITests.m; sourceTree = "<group>"; };
 		0416083C1F5D5C0000D58EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D771FE1F5D87120011B5F9 /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		04D771FF1F5D87120011B5F9 /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		04D772001F5D87120011B5F9 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		04D772011F5D87120011B5F9 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		04D772041F5D8AE40011B5F9 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		04D772051F5D8AE40011B5F9 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				041608191F5D5C0000D58EEA /* AppDelegate.m */,
 				0416081B1F5D5C0000D58EEA /* ViewController.h */,
 				0416081C1F5D5C0000D58EEA /* ViewController.m */,
+				04D771FE1F5D87120011B5F9 /* CustomLabel.h */,
+				04D771FF1F5D87120011B5F9 /* CustomLabel.m */,
+				04D772001F5D87120011B5F9 /* CustomTextField.h */,
+				04D772011F5D87120011B5F9 /* CustomTextField.m */,
+				04D772041F5D8AE40011B5F9 /* CustomButton.h */,
+				04D772051F5D8AE40011B5F9 /* CustomButton.m */,
 				0416081E1F5D5C0000D58EEA /* Main.storyboard */,
 				041608211F5D5C0000D58EEA /* Assets.xcassets */,
 				041608231F5D5C0000D58EEA /* LaunchScreen.storyboard */,
@@ -273,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D772061F5D8AE40011B5F9 /* CustomButton.m in Sources */,
 				0416081D1F5D5C0000D58EEA /* ViewController.m in Sources */,
 				0416081A1F5D5C0000D58EEA /* AppDelegate.m in Sources */,
 				041608171F5D5C0000D58EEA /* main.m in Sources */,
+				04D772031F5D87120011B5F9 /* CustomTextField.m in Sources */,
+				04D772021F5D87120011B5F9 /* CustomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CstomControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ejianzhi.test.CstomControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CstomControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ejianzhi.test.CstomControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +527,7 @@
 				041608411F5D5C0000D58EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041608421F5D5C0000D58EEA /* Build configuration list for PBXNativeTarget "CstomControlTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +536,7 @@
 				041608441F5D5C0000D58EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041608451F5D5C0000D58EEA /* Build configuration list for PBXNativeTarget "CstomControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				041608471F5D5C0000D58EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
