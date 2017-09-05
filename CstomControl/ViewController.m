@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    //提交version的测试
     
     CustomLabel *label=[[CustomLabel alloc]initWithFrame:CGRectMake(100, 100, 200, 40) andSize:14 andTextColor:[UIColor lightGrayColor] andText:@"这是一个测试的label" andTextAlign:NSTextAlignmentCenter];
     [self.view addSubview:label];
@@ -37,7 +37,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
