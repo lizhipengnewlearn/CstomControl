@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040FB4A11F5F832C00A3D90C /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FB4A01F5F832C00A3D90C /* CustomPickerView.m */; };
 		041608171F5D5C0000D58EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041608161F5D5C0000D58EEA /* main.m */; };
 		0416081A1F5D5C0000D58EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041608191F5D5C0000D58EEA /* AppDelegate.m */; };
 		0416081D1F5D5C0000D58EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0416081C1F5D5C0000D58EEA /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040FB49F1F5F832C00A3D90C /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
+		040FB4A01F5F832C00A3D90C /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
 		041608121F5D5C0000D58EEA /* CstomControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CstomControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041608161F5D5C0000D58EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		041608181F5D5C0000D58EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				04D772011F5D87120011B5F9 /* CustomTextField.m */,
 				04D772041F5D8AE40011B5F9 /* CustomButton.h */,
 				04D772051F5D8AE40011B5F9 /* CustomButton.m */,
+				040FB49F1F5F832C00A3D90C /* CustomPickerView.h */,
+				040FB4A01F5F832C00A3D90C /* CustomPickerView.m */,
 				0416081E1F5D5C0000D58EEA /* Main.storyboard */,
 				041608211F5D5C0000D58EEA /* Assets.xcassets */,
 				041608231F5D5C0000D58EEA /* LaunchScreen.storyboard */,
@@ -294,6 +299,7 @@
 				041608171F5D5C0000D58EEA /* main.m in Sources */,
 				04D772031F5D87120011B5F9 /* CustomTextField.m in Sources */,
 				04D772021F5D87120011B5F9 /* CustomLabel.m in Sources */,
+				040FB4A11F5F832C00A3D90C /* CustomPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
